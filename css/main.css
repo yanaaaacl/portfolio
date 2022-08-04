@@ -100,3 +100,37 @@ max-width: 370px;
 font-weight: 400;
 line-height: 28px;
 }
+.portfolio{
+    background-color: #F1F1F1;
+    padding: 90px 0;
+    
+
+}
+.portfolio-title{
+text-align: center;
+margin-bottom: 70px;
+}
+.title-1{
+font-weight: 600;
+font-size: 34px;
+line-height: 51px;
+}
+.project{
+text-align: center;
+}
+.project-img{
+margin-bottom: 40px;
+}
+.project-title{
+
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+}
+.project-title a{
+    color:#000000;
+    text-decoration: underline;
+}
+.project + .project{
+    margin-top: 90px;
+}
