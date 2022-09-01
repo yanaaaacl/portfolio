@@ -134,3 +134,60 @@ line-height: 27px;
 .project + .project{
     margin-top: 90px;
 }
+.contacts{
+padding: 90px 0;
+text-align: center;
+}
+.contacts-title{
+font-weight: 600;
+font-size: 34px;
+line-height: 51px;
+
+margin-bottom: 40px;
+}
+.contacts-content{
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+margin-bottom: 40px;
+
+
+}
+.contacts-button{
+
+margin-bottom: 80px;
+
+
+}
+.btn{
+background-color: #070707;
+display: inline-block;
+padding: 7px 22px;
+border-radius: 30px;
+color: #fff;
+font-size: 18px;
+font-weight: 400;
+transition: background-color 0.2s ease-in, top 0.2s ease-in;
+}
+.btn:hover, .btn:focus{
+    background-color: #323232;
+}
+.btn:active{
+background-color: #000000;
+position: relative;
+top: 1px;
+}
+.contacts-social{
+    margin-bottom: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 60px;
+
+}
+
+.contacts-footer{
+color: #828282;
+font-weight: 400;
+line-height: 21px;
+}
