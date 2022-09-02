@@ -79,3 +79,124 @@ color:#000000;
     line-height: 2;
     
 }
+.services{
+padding: 90px 0;
+}
+.services-row{
+display: flex;
+
+column-gap: 30px;
+}
+.service-card{
+    
+
+}
+.service-card-img{
+    margin-bottom: 30px;
+
+}
+.service-card-title{
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+
+}
+.service-card p{
+font-weight: 400;
+font-size: 14px;
+line-height: 2;
+}
+
+.portfolio{
+    margin: 90px 0;
+    background-color: #f1f1f1;
+
+}
+.portfolio-title{
+    
+    text-align: center;
+  
+    margin-bottom: 70px;
+
+}
+.title-1{
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 51px;
+    color: #070707;
+
+}
+.project{
+    text-align: center;
+    
+
+}
+.project + .project{
+    margin-top: 90px;
+}
+.project-img{
+    margin-bottom: 40px;
+}
+.project-title{
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+color:#070707;
+}
+.project-title a{
+    color: #070707;
+    text-decoration: underline;
+}
+.contacts{
+padding: 90px 0;
+text-align: center;
+}
+.contacts-title{
+margin-bottom: 40px;
+
+}
+.contacts-content{
+margin-bottom: 40px;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+}
+.contacts-button{
+margin-bottom: 87px;
+
+}
+.btn{
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+color: #fff;
+background-color: #070707;
+border-radius: 30px;
+padding: 7px 22px;
+display: inline-block;
+transition: background-color 0.2s ease-in, top 0.2s ease-in;
+}
+.btn:hover, .btn:focus{
+    background-color: #323232;
+}
+.btn:active{
+    position: relative;
+    top: 1px;
+    background-color: #000000;
+}
+.contacts-social{
+margin-bottom: 41px;
+display: flex;
+justify-content: center;
+column-gap: 60px;
+align-items: center;
+ 
+}
+
+.contacts-footer {
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+color: #828282;
+}
